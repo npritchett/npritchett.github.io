@@ -1,0 +1,150 @@
+/* General Body Styles */
+body {
+    background-color: #f0e68c; /* Light yellow background for the entire page */
+    font-family: Arial, sans-serif; /* Set a clean, sans-serif font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Video Container Styles */
+.video-container {
+    position: relative; /* Position relative to allow absolute positioning for the video */
+    height: 100vh; /* Full viewport height for the video */
+    width: 100%; /* Full width */
+}
+
+video {
+    position: absolute; /* Absolute positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Cover the entire container */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    z-index: 1; /* Ensure the video is behind text */
+}
+
+/* Text Overlay Styles */
+.text-overlay {
+    position: absolute; /* Absolute positioning */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    z-index: 2; /* Ensure the overlay is above the video */
+    display: flex; /* Flexbox layout for navigation */
+    justify-content: space-between; /* Space between items */
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px; /* Padding around the text */
+}
+
+/* Navigation Image Styles */
+.arcNavImg {
+    width: 250px; /* Set logo width */
+    height: 200px; /* Set logo height */
+}
+
+/* Navigation Links Styles */
+table {
+    margin: 0; /* Remove default margin */
+}
+
+td {
+    padding: 10px; /* Space between navigation items */
+}
+
+table a {
+    color: white; /* White color for links */
+    font-size: 1.5em; /* Larger font size for navigation links */
+}
+
+/* Family & Pride Text Styles */
+.family-pride {
+    position: absolute; /* Absolute positioning */
+    bottom: 0; /* Align to the bottom */
+    width: 100%; /* Full width */
+    color: white; /* White text color */
+    font-size: 3em; /* Large font size */
+    text-align: center; /* Center text */
+    z-index: 2; /* Ensure it overlays above the video */
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px; /* Padding for the main content */
+    z-index: 3; /* Ensure main content appears above the video */
+    position: relative; /* Position relative for z-index to work */
+}
+
+/* Map Container Styles */
+.map-container {
+    text-align: center; /* Center the map section */
+    margin: 20px 0; /* Space around the map */
+}
+
+/* Stay Connected Section Styles */
+.stay-connected {
+    padding: 20px; /* Padding inside the section */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 100%; /* Use full width */
+    margin: 20px auto; /* Center and add vertical spacing */
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: space-between; /* Space items evenly */
+}
+
+.stay-connected h2 {
+    width: 100%; /* Full width for heading */
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker color for heading */
+}
+
+/* Form Group Styles */
+.form-group {
+    flex: 1 1 30%; /* Allow input fields to grow and shrink */
+    margin-right: 10px; /* Space between input fields */
+}
+
+.form-group:last-child {
+    margin-right: 0; /* No margin for the last input field */
+}
+
+/* Label Styles */
+.label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    color: #555; /* Darker color for labels */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Submit Button Styles */
+.submit-btn {
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    flex-basis: 100%; /* Full width for the button */
+    margin-top: 10px; /* Space above the button */
+}
+
+/* Submit Button Hover Effect */
+.submit-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center footer text */
+    padding: 10px 0; /* Padding for footer */
+    background-color: #f8f9fa; /* Light background for footer */
+    color: #333; /* Darker text color */
+}

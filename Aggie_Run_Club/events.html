@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aggies Run Club: Events</title> <!-- Title for the events page -->
+    <meta name="runclub" content="nashawnp"> <!-- Metadata for search engines and social media -->
+    <link rel="icon" type="image/x-icon" href="images/AggieRunClubIcon.jpg"> <!-- Favicon for the website -->
+    <link rel="stylesheet" type="text/css" href="indexStyles.css"> <!-- Link to external CSS for styling -->
+</head>
+<body>
+    <div class="video-container"> <!-- Container for the background video -->
+        <header>
+            <nav id="navContainer"> <!-- Navigation container -->
+                <video autoplay loop muted playsinline> <!-- Background video for the navigation -->
+                    <source src="videos/aggieRunClubVideo.mp4" type="video/mp4"> <!-- Video source -->
+                </video>
+                <div class="text-overlay"> <!-- Overlay for navigation text -->
+                    <a href="index.html"> <!-- Link to the home page -->
+                        <img src="images/AggieRunClubLogo.png" alt="Aggie Run Club" width="250" height="200" class="arcNavImg"> <!-- Club logo -->
+                    </a>
+                    <table> <!-- Table for navigation links -->
+                        <tr>
+                            <td><a href="events.html">Active Aggies</a></td> <!-- Link to events page -->
+                            <td><a href="aboutUs.html">Our Pride</a></td> <!-- Link to about us page -->
+                            <td><a href="contact.html">Contact</a></td> <!-- Link to contact page -->
+                        </tr>
+                    </table>
+                </div>
+                <div class="family-pride">Family & Pride</div> <!-- Text section for club's motto -->
+            </nav>
+        </header>
+    </div>
+
+    <main> <!-- Main content of the events page -->
+        <div class="event-section"> <!-- First event section -->
+            <div class="event-image"> <!-- Container for the event image -->
+                <img src="images/runClubFlyer.png" alt="Run club flyer: Run every Tuesday at 6pm" width="400" height="400"> <!-- Flyer image for weekly runs -->
+            </div>
+            <div class="event-description"> <!-- Container for the event description -->
+                <p>Want to be a part of a fun and engaging community? Join the Aggie Run Club this semester!</p> <!-- Description for joining the club -->
+                <p>Group Runs on campus every Tuesday at 6 pm. Let's Work!</p> <!-- Details about regular runs -->
+            </div>
+        </div>
+
+        <div class="event-section"> <!-- Second event section -->
+            <div class="event-description"> <!-- Container for the event description -->
+                <p>The Aggies Vs. Rams run will be one to remember!</p> <!-- Description of the competitive event -->
+                <p>Aggies come out and enjoy a competitive friendly race against the Winston Rams Run Club as we battle it out for bragging rights of who runs the road.</p> <!-- Details about the race -->
+            </div>
+            <div class="event-image"> <!-- Container for the event image -->
+                <img src="images/upcomingEvent.png" alt="Aggie Vs. Winston event flyer" width="400" height="400"> <!-- Image for the Aggies Vs. Rams event -->
+            </div>
+        </div>
+
+        <!-- Stay Connected Section -->
+        <div class="stay-connected"> <!-- Section for the subscription form -->
+            <h2>Stay Connected</h2> <!-- Heading for the stay connected section -->
+            <form> <!-- Form for user input -->
+                <div class="form-group"> <!-- Group for first name input -->
+                    <label for="first-name">First Name:</label> <!-- Label for the first name input -->
+                    <input type="text" id="first-name" name="first-name" required> <!-- Input for first name -->
+                </div>
+                <div class="form-group"> <!-- Group for last name input -->
+                    <label for="last-name">Last Name:</label> <!-- Label for the last name input -->
+                    <input type="text" id="last-name" name="last-name" required> <!-- Input for last name -->
+                </div>
+                <div class="form-group"> <!-- Group for email input -->
+                    <label for="email">Email:</label> <!-- Label for the email input -->
+                    <input type="email" id="email" name="email" required> <!-- Input for email -->
+                </div>
+                <button type="submit" class="submit-btn">Submit</button> <!-- Submit button for the form -->
+            </form>
+        </div>
+    </main>
+
+    <footer> <!-- Footer section -->
+        &copy; 2024 Aggies Run Club.<br> <!-- Copyright notice -->
+        All rights reserved.<br><br>
+        <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a> <br> <!-- Link to validate HTML -->
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a> <!-- Link to validate CSS -->
+    </footer>
+</body>
+</html>

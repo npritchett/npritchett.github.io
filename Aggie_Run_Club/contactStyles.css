@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    background-color: #f0e68c; /* Light yellow background for the whole page */
+}
+
+/* Video Container Styles */
+.video-container {
+    position: relative;
+    height: 100vh; /* Full viewport height for the video */
+    width: 100%;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire container */
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* Text Overlay Styles */
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex; /* Flexbox layout for navigation */
+    justify-content: space-between; /* Space between elements */
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+}
+
+/* Navigation Image Styles */
+.arcNavImg {
+    width: 250px;
+    height: 200px;
+}
+
+/* Navigation Table Styles */
+table {
+    margin: 0;
+}
+
+td {
+    padding: 10px; /* Padding for navigation items */
+}
+
+table a {
+    color: white; /* White color for navigation links */
+    font-size: 1.5em; /* Larger font size for navigation links */
+}
+
+/* Family & Pride Text Styles */
+.family-pride {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white; /* White color for text */
+    font-size: 3em; /* Large font size */
+    text-align: center; /* Center text */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center items */
+    align-items: center;
+    z-index: 2;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px; /* Padding for the main section */
+}
+
+/* Map Container Styles */
+.map-container {
+    text-align: center; /* Center map section */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+/* Event Section Styles (if needed) */
+.event-section {
+    display: flex; /* Align items in a row */
+    align-items: flex-start; /* Align items to the top */
+    margin: 20px 0; /* Add space between sections */
+}
+
+/* Event Image Styles */
+.event-image {
+    flex: 0 0 30%; /* Set the width of the image container */
+}
+
+.event-image img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 150px; /* Set a max width for smaller images */
+}
+
+/* Event Description Styles */
+.event-description {
+    flex: 1; /* Allow description to take remaining space */
+    padding: 0 20px; /* Add padding for spacing */
+    display: flex; /* Use flexbox for description */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center content vertically */
+}
+
+/* Paragraph Styles */
+.event-description p {
+    margin: 5px 0; /* Add margin for spacing between paragraphs */
+    font-size: 25px; /* Set font size to 25px */
+    color: red; /* Set text color to red */
+}
+
+/* Stay Connected Section Styles */
+.stay-connected {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100%; /* Use full width */
+    margin: 20px auto; /* Center and space out */
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+    justify-content: space-between; /* Space items evenly */
+}
+
+.stay-connected h2 {
+    width: 100%; /* Ensure the heading takes the full width */
+    text-align: center; /* Center the heading */
+    color: #333; /* Adjust text color to match your theme */
+}
+
+/* Form Group Styles */
+.form-group {
+    flex: 1 1 30%; /* Allows input fields to grow and shrink */
+    margin-right: 10px; /* Space between input fields */
+}
+
+.form-group:last-child {
+    margin-right: 0; /* Remove margin for the last input */
+}
+
+/* Label Styles */
+.label {
+    display: block;
+    margin-bottom: 5px; /* Space below labels */
+    color: #555; /* Adjust to match your theme */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Submit Button Styles */
+.submit-btn {
+    background-color: #007BFF; /* Button color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius:

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aggies Run Club</title>
+    <meta name="runclub" content="nashawnp"> <!-- Metadata for search engines and social media -->
+    <link rel="icon" type="image/x-icon" href="images/AggieRunClubIcon.jpg"> <!-- Favicon for the website -->
+    <link rel="stylesheet" type="text/css" href="indexStyles.css"> <!-- Link to external CSS for styling -->
+</head>
+<body>
+    <div class="video-container"> <!-- Container for the background video -->
+        <header>
+            <nav id="navContainer"> <!-- Navigation container -->
+                <video autoplay loop muted playsinline> <!-- Background video for the navigation -->
+                    <source src="videos/aggieRunClubVideo.mp4" type="video/mp4"> <!-- Video source -->
+                </video>
+                <div class="text-overlay"> <!-- Overlay for navigation text -->
+                    <a href="index.html"> <!-- Link to the home page -->
+                        <img src="images/AggieRunClubLogo.png" alt="Aggie Run Club" width="250" height="200" class="arcNavImg"> <!-- Club logo -->
+                    </a>
+                    <table> <!-- Table for navigation links -->
+                        <tr>
+                            <td><a href="events.html">Active Aggies</a></td> <!-- Link to events page -->
+                            <td><a href="aboutUs.html">Our Pride</a></td> <!-- Link to about us page -->
+                            <td><a href="contact.html">Contact</a></td> <!-- Link to contact page -->
+                        </tr>
+                    </table>
+                </div>
+    
+                <!-- New div for "Family & Pride" text -->
+                <div class="family-pride"> <!-- Text section for club's motto -->
+                    Family & Pride
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <main> <!-- Main content of the page -->
+
+        <section id="about-us"> <!-- Section for club introduction -->
+            <img src="images/runAction.png" alt="Group of Aggie students running"> <!-- Image of students running -->
+    
+            <!-- Description of the club -->
+            <p>
+                The newly established North Carolina A&T Run Club is dedicated to fostering a strong sense of community through running. Open to students of all skill levels, the club aims to promote health, wellness, and teamwork. Whether you're a seasoned runner or just starting out, the Aggie Run Club provides a welcoming space to improve your fitness and meet new friends. Join us as we hit the track and roads to achieve our goals together. AGGIE PRIDE!
+            </p>
+        </section>
+        
+        <section id="quickEvents"> <!-- Section for upcoming events -->
+            <div class="event-text">
+                <h2>Upcoming Events</h2> <!-- Heading for events -->
+                <p>
+                    Join us for our regular Tuesday evening run at 6 PM! We're also excited to announce the "Aggies on the Move" 5K happening next month, a community run designed for all fitness levels. In addition, don't miss our special trail run event in November, where we'll explore the local greenway trails. Stay tuned for more details and make sure to lace up your shoes and be part of the Aggie Run Club!
+                </p>
+            </div>
+        
+            <div class="event-images"> <!-- Container for event images -->
+                <div class="image-box"> <!-- Box for each event image -->
+                    <img src="images/runClubFlyer.PNG" alt="Run club flyer: Run every Tuesday at 6pm"> <!-- Flyer image for weekly runs -->
+                    <p>Weekly Tuesday Runs - 6 PM</p> <!-- Description for the event -->
+                </div>
+        
+                <div class="image-box"> <!-- Box for each event image -->
+                    <img src="images/peacesign.PNG" alt="Group of aggies with man holding up peace sign"> <!-- Image for community 5K -->
+                    <p>Aggies on the Move - Community 5K</p> <!-- Description for the event -->
+                </div>
+        
+                <div class="image-box"> <!-- Box for each event image -->
+                    <img src="images/upcomingEvent.PNG" alt="upcoming event flyer"> <!-- Image for trail run -->
+                    <p>November Trail Run Event</p> <!-- Description for the event -->
+                </div>
+            </div>
+        </section>
+
+        <div class="stay-connected"> <!-- Section for the subscription form -->
+            <h2>Stay Connected</h2> <!-- Heading for the stay connected section -->
+            <form> <!-- Form for user input -->
+                <div class="form-group"> <!-- Group for first name input -->
+                    <label for="first-name">First Name:</label> <!-- Label for the first name input -->
+                    <input type="text" id="first-name" name="first-name" required> <!-- Input for first name -->
+                </div>
+                <div class="form-group"> <!-- Group for last name input -->
+                    <label for="last-name">Last Name:</label> <!-- Label for the last name input -->
+                    <input type="text" id="last-name" name="last-name" required> <!-- Input for last name -->
+                </div>
+                <div class="form-group"> <!-- Group for email input -->
+                    <label for="email">Email:</label> <!-- Label for the email input -->
+                    <input type="email" id="email" name="email" required> <!-- Input for email -->
+                </div>
+                <button type="submit" class="submit-btn">Submit</button> <!-- Submit button -->
+            </form>
+        </div>
+    </main>
+    
+    <footer> <!-- Footer section -->
+        &copy;2024 Aggies Run Club.<br>
+        All rights reserved.<br><br>
+
+        <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a> <br> <!-- Link to validate HTML -->
+
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a> <!-- Link to validate CSS -->
+    </footer>
+</body>
+</html>

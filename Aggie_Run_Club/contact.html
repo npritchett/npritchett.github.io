@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <title>Aggies Run Club: Contact</title> <!-- Title for the contact page -->
+    <meta name="runclub" content="nashawnp"> <!-- Metadata for search engines and social media -->
+    <link rel="icon" type="image/x-icon" href="images/AggieRunClubIcon.jpg"> <!-- Favicon for the website -->
+    <link rel="stylesheet" type="text/css" href="contactStyles.css"> <!-- Link to external CSS for styling the contact page -->
+</head>
+<body>
+    <div class="video-container"> <!-- Container for the background video -->
+        <header>
+            <nav id="navContainer"> <!-- Navigation container -->
+                <video autoplay loop muted playsinline> <!-- Background video for the navigation -->
+                    <source src="videos/aggieRunClubVideo.mp4" type="video/mp4"> <!-- Video source -->
+                </video>
+                <div class="text-overlay"> <!-- Overlay for navigation text -->
+                    <a href="index.html"> <!-- Link to the home page -->
+                        <img src="images/AggieRunClubLogo.png" alt="Aggie Run Club" width="250" height="200" class="arcNavImg"> <!-- Club logo -->
+                    </a>
+                    <table> <!-- Table for navigation links -->
+                        <tr>
+                            <td><a href="events.html">Active Aggies</a></td> <!-- Link to events page -->
+                            <td><a href="aboutUs.html">Our Pride</a></td> <!-- Link to about us page -->
+                            <td><a href="contact.html">Contact</a></td> <!-- Link to contact page -->
+                        </tr>
+                    </table>
+                </div>
+                <div class="family-pride">Family & Pride</div> <!-- Text section for club's motto -->
+            </nav>
+        </header>
+    </div>
+
+    <main> <!-- Main content of the contact page -->
+        <h1>Contact Us</h1> <!-- Main heading for the contact section -->
+        <p>If you have any questions or would like to learn more about the Aggie Run Club, feel free to reach out!</p> <!-- Introduction to contact information -->
+
+        <!-- Map Section -->
+        <div class="map-container"> <!-- Container for the map -->
+            <h2>Find Us at Dudley Hall</h2> <!-- Subheading for the map section -->
+            <iframe
+                src="https://www.google.com/maps/place/Dudley+Memorial+Building/@36.0747782,-79.7821257,16z/data=!3m2!4b1!5s0x885318d09d824469:0xf6aca4a01fc7c51c!4m6!3m5!1s0x885318da77b8513f:0x5bbe21d18b8f7061!8m2!3d36.074774!4d-79.7772548!16s%2Fg%2F11bvvzl2gd?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D"
+                width="600" height="450" ></iframe> <!-- Google Maps iframe for location of Dudley Hall -->
+        </div>
+
+        <!-- Stay Connected Section -->
+        <div class="stay-connected"> <!-- Section for the subscription form -->
+            <h2>Stay Connected</h2> <!-- Heading for the stay connected section -->
+            <form> <!-- Form for user input -->
+                <div class="form-group"> <!-- Group for first name input -->
+                    <label for="first-name">First Name:</label> <!-- Label for the first name input -->
+                    <input type="text" id="first-name" name="first-name" required> <!-- Input for first name -->
+                </div>
+                <div class="form-group"> <!-- Group for last name input -->
+                    <label for="last-name">Last Name:</label> <!-- Label for the last name input -->
+                    <input type="text" id="last-name" name="last-name" required> <!-- Input for last name -->
+                </div>
+                <div class="form-group"> <!-- Group for email input -->
+                    <label for="email">Email:</label> <!-- Label for the email input -->
+                    <input type="email" id="email" name="email" required> <!-- Input for email -->
+                </div>
+                <button type="submit" class="submit-btn">Submit</button> <!-- Submit button for the form -->
+            </form>
+        </div>
+    </main>
+
+    <footer> <!-- Footer section -->
+        &copy; 2024 Aggies Run Club.<br> <!-- Copyright notice -->
+        All rights reserved.<br><br>
+        <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a> <br> <!-- Link to validate HTML -->
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a> <!-- Link to validate CSS -->
+    </footer>
+</body>
+</html>
+
